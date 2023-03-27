@@ -11,12 +11,12 @@ export const Top = () => {
   const oncliCkAdmin = () => {
     setUserInfo({ isAdmin: true });
     history.push("/users");
-  }
+  };
 
-  const oncliCkGeneral = () =>{
+  const oncliCkGeneral = () => {
     setUserInfo({ isAdmin: false });
     history.push("/users");
-  }
+  };
 
   return (
     <SContainer>
